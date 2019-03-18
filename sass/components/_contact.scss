@@ -1,0 +1,17 @@
+.contact {
+    font-size: 1.6rem;
+
+    &__reason {
+        &::after {
+            content: ":";
+        }
+    }
+
+    &__address {
+        &:link,
+        &:visited {
+            color: $color-grey-light-2;
+            text-decoration: none;
+        }
+    }
+}

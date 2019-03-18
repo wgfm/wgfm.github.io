@@ -1,0 +1,37 @@
+.shows {
+    max-width: $grid-width;
+    margin: 0 auto;
+    font-family: monospace;
+}
+
+.show {
+    font-size: 1.6rem;
+    color: $color-grey-dark-2;
+
+    &__date {
+        vertical-align: baseline;
+        color: $color-grey-light-2;
+        text-transform: uppercase;
+        padding-right: 8rem;
+    }
+
+    &__details {
+        padding-right: 8rem;
+
+        &--venue {
+            display: block;
+        }
+
+        &--support {
+            display: block;
+        }
+    }
+
+    &__location {
+        vertical-align: baseline;
+    }
+
+    &--bottom {
+        border-bottom: 1px solid $color-secondary-light;
+    }
+}
