@@ -10,14 +10,14 @@
     position: relative;
 
     &__logo-box {
-        position: absolute;
-        top: 6rem;
-        left: 6rem;
+        margin: auto;
+        padding: 5rem 6rem;
     }
 
     &__logo {
-        height: 28rem;
-        opacity: 0.7;
+        max-width: 80vw;
+        max-height: 28rem;
+        opacity: 0.8;
     }
     
     &__text-box {

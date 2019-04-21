@@ -180,7 +180,7 @@ body {
           margin-bottom: 6rem; } }
     @media only screen and (max-width: 56.25em) {
       .row [class^="col-"] {
-        width: 100% !important; } }
+        width: 80% !important; } }
   .row .col-1-of-2 {
     width: calc((100% - 6rem) / 2); }
   .row .col-1-of-3 {
@@ -201,12 +201,12 @@ body {
   background-position: top;
   position: relative; }
   .header__logo-box {
-    position: absolute;
-    top: 6rem;
-    left: 6rem; }
+    margin: auto;
+    padding: 5rem 6rem; }
   .header__logo {
-    height: 28rem;
-    opacity: 0.7; }
+    max-width: 80vw;
+    max-height: 28rem;
+    opacity: 0.8; }
   .header__text-box {
     position: absolute;
     top: 90%;
