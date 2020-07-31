@@ -115,10 +115,6 @@ body {
 .u-margin-top-huge {
   margin-top: 10rem !important; }
 
-img {
-  max-width: 100%;
-  height: auto; }
-
 .contact {
   font-size: 1.6rem; }
   .contact__reason::after {
@@ -188,9 +184,9 @@ img {
   .row .col-1-of-2 {
     width: calc((100% - 6rem) / 2); }
   .row .col-1-of-3 {
-    width: calc((100% - 5 * 6rem) / 3); }
+    width: calc((100% - 2 * 6rem) / 3); }
   .row .col-2-of-3 {
-    width: calc(2 * ((100% - 5 * 6rem) / 3) + 6rem); }
+    width: calc(2 * ((100% - 2 * 6rem) / 3) + 6rem); }
   .row .col-1-of-4 {
     width: calc((100% - 3 * 6rem) / 4); }
   .row .col-2-of-4 {
